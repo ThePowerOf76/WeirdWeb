@@ -1,4 +1,4 @@
-import { Website } from "./classes/Website";
+import { Website } from "./Website";
 export let sample_data = [
     new Website({
         id: 1,
