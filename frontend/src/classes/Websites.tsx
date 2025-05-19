@@ -2,9 +2,9 @@ import { Website } from "./Website";
 export let sample_data = [
     new Website({
         id: 1,
-        title   : "sizeof(cat)",
-        url : "http://sizeof.cat",
-        content : "",
+        title: "sizeof(cat)",
+        url: "http://sizeof.cat",
+        content: "",
         averageRating: 0,
         numberOfRatings: 0,
         tags: [
@@ -12,8 +12,8 @@ export let sample_data = [
         "tech"
         ],
         latest_comments: [],
-        createdAt: Date.parse("2025-04-29T09:30:19.464Z"),
-        updatedAt: Date.parse("2025-04-29T09:30:19.464Z")
+        created: Date.parse("2025-04-29T09:30:19.464Z"),
+        updated: Date.parse("2025-04-29T09:30:19.464Z")
     }), 
     new Website({
         id: 2,
@@ -26,8 +26,8 @@ export let sample_data = [
         "tech"
         ],
         latest_comments: [],
-        createdAt: Date.parse("2025-05-05T15:16:25.411+00:00"),
-        updatedAt: Date.parse("2025-05-05T15:16:25.411+00:00")
+        created: Date.parse("2025-05-05T15:16:25.411+00:00"),
+        updated: Date.parse("2025-05-05T15:16:25.411+00:00")
     }), 
     new Website({
         id: 3,
@@ -40,7 +40,7 @@ export let sample_data = [
         "blog"
         ],
         latest_comments: [],
-        createdAt: Date.parse("2025-05-05T15:16:25.411+00:00"),
-        updatedAt: Date.parse("2025-05-05T15:16:25.411+00:00")
+        created: Date.parse("2025-05-05T15:16:25.411+00:00"),
+        updated: Date.parse("2025-05-05T15:16:25.411+00:00")
     }), 
 ];
